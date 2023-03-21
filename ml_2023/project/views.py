@@ -19,7 +19,6 @@ def project_detail(request, pk):
 def home(request):
     return render(request, 'home.html')
 
-def blog_index(request):
-    return render(request, 'blog_index.html')
+
 
 # Create your views here.
